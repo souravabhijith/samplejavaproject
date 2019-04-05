@@ -1,0 +1,25 @@
+{
+  "A" : {
+    "name" : "ATest",
+    "testcases" : [
+      {
+        "name" : "testsum",
+        "instructions" : [
+          "A #a = new A()",
+          "int actual = #a.sum(5, 9)",
+          "int expected = 14",
+          "TEST INT actual expected (Sum should be 9)"
+        ]
+      },
+      {
+        "name" : "testfirstNnumbers",
+        "instructions" : [
+          "A #a = new A()",
+          "int_arr actual = #a.firstn(5)",
+          "int_arr_5 expected = 1,2,3,4,5",
+          "TEST INT_ARR actual expected (Array should be 1,2,3,4,5)"
+        ]
+      }
+    ]
+  }
+}

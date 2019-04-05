@@ -1,0 +1,53 @@
+[
+  {
+    "name" : "A",
+    "content" : "a",
+    "path" : "",
+    "methods" : [
+
+    ],
+    "members" : [
+      {
+        "datatype" : "int",
+        "name": "value",
+        "initial_value": "0"
+      },
+      {
+        "datatype" : "char",
+        "name": "turn",
+        "initial_value": "null"
+      }
+    ],
+    "generate_getter_members": "ALL",
+    "generate_setter_members": "ALL"
+  },
+  {
+    "name" : "B",
+    "content" : "b",
+    "path" : "",
+    "methods" : [
+      {
+        "desc": "Constructor content",
+        "format": "A",
+        "name": "B",
+        "returndatatype": "Constructor",
+        "vars": "a"
+      }
+
+    ],
+    "members" : [
+      {
+        "datatype" : "A",
+        "name": "a",
+        "initial_value": "null"
+      },
+      {
+        "datatype" : "char",
+        "name": "turn",
+        "initial_value": "null"
+      }
+    ],
+    "generate_getter_members": "ALL",
+    "generate_setter_members": "ALL"
+  }
+]
